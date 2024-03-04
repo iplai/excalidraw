@@ -755,7 +755,8 @@ export const actionChangeFontFamily = register({
       testId: string;
     }[] = [
       {
-        value: FONT_FAMILY.Virgil,
+        // value: FONT_FAMILY.Virgil,
+        value: FONT_FAMILY.Muyao,
         text: t("labels.handDrawn"),
         icon: FreedrawIcon,
         testId: "font-family-virgil",
@@ -772,6 +773,12 @@ export const actionChangeFontFamily = register({
         icon: FontFamilyCodeIcon,
         testId: "font-family-code",
       },
+      // {
+      //   value: FONT_FAMILY.Muyao,
+      //   text: t("labels.handDrawn"),
+      //   icon: FreedrawIcon,
+      //   testId: "font-family-code",
+      // },
     ];
 
     return (
